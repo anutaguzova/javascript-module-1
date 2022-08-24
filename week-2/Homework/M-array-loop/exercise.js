@@ -13,3 +13,9 @@ const daysOfWeek = [
   "Saturday",
   "Sunday",
 ];
+
+for(let i= 0; i < daysOfWeek.length; i++) {
+  if (daysOfWeek[i].startsWith("T")) {
+    console.log(daysOfWeek[i])
+  }
+}
