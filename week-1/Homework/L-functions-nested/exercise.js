@@ -16,10 +16,8 @@ function createGreeting(name) {
     return  message;
 }
 
-let i = 0;
 
-while (arr[i]) {
+for (let i = 0; i < arr.length;  i++) {
     let greeting = createGreeting(arr[i]);
     console.log(greeting);
-  i++;
 }
