@@ -22,13 +22,22 @@ function sortAges(arr) {
     }
   }
 
-  // to add sorting of result
-  console.log(result) 
+  for (let i = 0; i < result.length; i++) {
+    for (j = i + 1; j < result.length; j++) {
+      if (result[i] > result[j]) {
+        temp = result[j];
+        result[j] = result[i];
+        result[i] = temp
+      }
+    }
+  }
+
+  return result
 }
 
-// function sortAges(arr) {
-//   return arr.filter(el => typeof el == "number").sort((a, b) => a - b)
-// }
+function sortAges(arr) {
+  return arr.filter(el => typeof el == "number").sort((a, b) => a - b)
+}
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 
