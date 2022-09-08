@@ -9,7 +9,7 @@
 */
 
 function colonisers(arr) {
-  return arr.filter(el => el[0] == 'A' && el.split(' ').includes("family"))
+  return arr.filter(el => el[0] == 'A' && el.includes("family"))
 }
 
 /* ======= TESTS - DO NOT MODIFY ===== */
