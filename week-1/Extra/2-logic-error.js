@@ -9,10 +9,8 @@ function getWordLength(word) {
 }
 
 function multiply(a, b, c) {
- 
-  return  a * b * c;
+  return a * b * c;
 }
-
 
 /* ======= TESTS - DO NOT MODIFY =====
 There are some Tests in this file that will help you work out if your code is working.

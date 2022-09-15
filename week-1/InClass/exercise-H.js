@@ -1,5 +1,6 @@
-function greeting (name,age){
-    const myGreeting = `Hello my name is ${name},I am ${age} Years Old`;
-    console.log(myGreeting);
+function exerciseH(num1, num2) {
+    return num1 + num2;
 }
-greeting ("ALI",20);
+
+result = exerciseH (10, 12);
+console.log (result);

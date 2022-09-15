@@ -1,4 +1,4 @@
-const numberOfStudent = 17
-const numberOfMentor = 5
-const totalNumberOfStudentAndMentor = numberOfStudent + numberOfMentor
-console.log(totalNumberOfStudentAndMentor);
+const numberOfStudents = 18;
+const numberOfMentors = 2;
+const totalNumbers = numberOfStudents + numberOfMentors;
+console.log(totalNumbers);

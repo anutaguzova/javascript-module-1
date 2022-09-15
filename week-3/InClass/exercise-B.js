@@ -1,15 +1,16 @@
-const peopleInClass = ["Ali","Abu Bakar","Muazzam","Zakaria","Ibnul"];
-const anotherClass = ["Mustafa","john","Alejandro"];
-const joinedClasses = peopleInClass.concat(anotherClass);
-console.log(joinedClasses.sort());
+const people = ["ali", "hafiz", "dani"];
+const people2 = ["muazzam", "hassan"];
+const newPeople = people.concat(people2);
+console.log(newPeople.sort());
 
-function splittingName(names,arrayOfNames){
-    if(arrayOfNames.includes(names)){
-        return `${names} is in the class with ${peopleInClass}`
-    }else{
-        return `${names} is in not the class with ${peopleInClass}`   
-    }
+const checkIfInTheArray_arrow = (name, array) => {
+  if(array.includes(name)){
+    modified_array = [...array]
+    modified_array.splice(array.indexOf(name),1)
+    const otherPeople = modified_array.join(", ")
+    return `${name} is in the class with ${otherPeople} `
+  }else{
+    return `${name} is not in the class with ${array.join(", ")}`
+  }
 }
-
-console.log(splittingName("Yun",joinedClasses));
-console.log(splittingName("Ali",joinedClasses));
+console.log(checkIfInTheArray_arrow("Linda",newPeople))

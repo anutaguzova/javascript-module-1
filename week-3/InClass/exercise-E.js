@@ -1,10 +1,13 @@
-function age(birthYear) {
-    return 2022 - birthYear
+const birthYears = [1964, 2008, 1999, 2005, 1978, 1985, 1919];
+
+function age(birthYear){
+  const currentYear = new Date().getFullYear();
+  return currentYear - birthYear;
 }
 
-const birthYear = [1964, 2008, 1999, 2005, 1978, 1985, 1919]
 
-const ages = birthYear.map(age)
+function ageArray(array){
+  return array.map(age);
+}
 
-console.log(ages)
-console.log(birthYear)
+console.log(ageArray(birthYears));

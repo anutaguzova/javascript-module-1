@@ -13,13 +13,12 @@ const daysOfWeek = [
   "Saturday",
   "Sunday",
 ];
- 
- function letterArr(days,letter){
-  for (let i = 0; i<days.length; i++){
-  if(days [i] [0] == letter){
-    console.log( days[i]);
-  
- }
- }
- }
-letterArr(daysOfWeek,"T")
+function showdaysOfweek(days, letter){
+  for(let d = 0; d < days.length; d++){
+    if (days [d] [0] == letter){
+      console.log(days[d]);
+    }
+  }
+}
+
+showdaysOfweek(daysOfWeek, "T");

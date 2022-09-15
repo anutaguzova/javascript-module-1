@@ -1,10 +1,20 @@
-const name = ["James","Ali","Manpreet","Lucia"]
-function amIHere(name){
-    if(name.includes(name)){
-        return "Found me"
-    }else{
-        return "Haven't Found me"
-    }
-}
+  const namesArray = [
+    "James",
+    "Elamin",
+    "Ismael",
+    "Sanyia",
+    "Chris",
+    "Antigoni",
+  ];
 
-console.log(amIHere("James"));
+
+  function checkName(name, array){
+    if(array.includes(name)){
+      return "Found me"
+    }else{
+      return "Havent found me"
+    }
+  }
+
+
+  console.log(checkName("James", namesArray));

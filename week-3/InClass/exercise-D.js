@@ -1,26 +1,22 @@
 function magician(yourFunc) {
-    console.log(
-      "I am magician! Watch as I mutate an array of strings to your heart's content!"
-    );
-    const namesArray = [
-      "James",
-      "Elamin",
-      "Ismael",
-      "Sanyia",
-      "Chris",
-      "Antigoni",
-    ];
-  
-    const magicOutput = yourFunc(namesArray);
-  
-    return magicOutput;
-  }
+  console.log(
+    "I am magician! Watch as I mutate an array of strings to your heart's content!"
+  );
+  const namesArray = [
+    "James",
+    "Elamin",
+    "Ismael",
+    "Sanyia",
+    "Chris",
+    "Antigoni",
+  ];
 
-  function superMagic(array){
-    return array.map((e) => e. toUpperCase ()
+  const magicOutput = yourFunc(namesArray);
 
-    )
-  }
+  return magicOutput;
+}
 
-  const output = magician(superMagic)
-  console.log(output)
+function yourFunc(array){
+  return array.map(e => e.toUpperCase()).sort() 
+}
+console.log(magician(yourFunc));

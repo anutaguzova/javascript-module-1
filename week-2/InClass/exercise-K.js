@@ -1,13 +1,4 @@
-const studentsOfClass = [
-    "Ali",
-    "Abu Bakar",
-    "Muazzam",
-    "Lucia",
-    "Linda",
-    "Zakria",
-  ];
-  
-  for (let i = 0; i < studentsOfClass.length; i++) {
-    const studentMessage = `Hello ${studentsOfClass[i]}`;
-    console.log(studentMessage);
-  }
+const students = ["ali", "ab", "muazzam", "nadia", "rewat", "nimra"];
+for (let s = 0; s < students.length; s++){
+    console.log(`Hi! ${students[s]}`);
+}

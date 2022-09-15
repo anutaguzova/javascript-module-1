@@ -1,14 +1,15 @@
-function checkingUsers(username,usertype){
-    if(usertype == "admin" || usertype == "manager"){
-        console.log("Username Valid")
-    }else if (username[0] == username[0].toUpperCase() && username.length >= 5 && username.length <=10 ){
-    console.log("Username Valid")
-    }else
-    console.log("Username Invalid")
+function checkUserName(username, usertype){
+    if (usertype == "admin" || usertype == "manager"){
+        console.log("Usertype valid");
+    }
+    else if(username[0] == username[0].toUpperCase() && username.length <= 10 && username.length >= 5){
+        console.log("username valid");
+    }
+    else {
+        console.log("user is  invalid");
+    }
 }
 
-
-checkingUsers("aaaaa" ,"admin");
-checkingUsers("Aaaaa" ,"manager");
-checkingUsers("aaaaa" ,"student");
-
+checkUserName("abc", "student")
+checkUserName("Abcdef", "manager")
+checkUserName("abds", "admin")
