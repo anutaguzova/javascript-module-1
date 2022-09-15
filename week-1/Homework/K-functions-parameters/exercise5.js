@@ -1,8 +1,9 @@
 // Declare your function here
-function createLongGreeting(name,age){
-    return `Hello, my name is ${name} and I am ${age} years old`;
+function ageGreeting(name,age) {
+    let ageConcatenation =`Hello my is ${name} and i am ${age} Years old`;
+    return ageConcatenation;
+    
 }
-
-const greeting = createLongGreeting("Daniel", 30);
+const greeting = ageGreeting("Daniel", 30);
 
 console.log(greeting);

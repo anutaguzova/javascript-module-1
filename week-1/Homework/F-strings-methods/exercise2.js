@@ -1,8 +1,4 @@
-let name = " Nadia ";
-name=name.trim();
-let nameLength = name.length;
-
-
-const message= `hello my name is ${name} and it is ${nameLength} numbers long`;
-
-console.log(message);
+let myNameIs = "Ali Murtaza";
+let myNameLength = myNameIs.length;
+let concatenation = `    Hi I am ${myNameIs} and my name is ${myNameLength} characters long   `;
+console.log(concatenation.trim()); //trim removes the white space before and at the end 

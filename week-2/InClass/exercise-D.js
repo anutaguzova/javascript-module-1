@@ -1,15 +1,16 @@
-let currentMood = 10;
-
-function moodChecker(mood) {
-  if (currentMood === "happy") {
-    return "Good job! You're dong great";
-  } else if (currentMood === "sad") {
-    return "Every cloud has a silver lining";
-  } else if (typeof currentMood === "number") {
-    return "Beep beep boop";
-  } else {
-    return "im soryy im still learning about feelings";
-  }
+function moodChecker(mood){
+    if (mood == "happy"){
+        return "Good job, you're doing great!" 
+    }
+    else if (mood == "sad"){
+        return "Every cloud has a silver lining" 
+    }
+    else if (typeof mood == "number"){
+        return "Beep beep boop" 
+    }else{
+        return "I'm sorry, I'm still learning about feelings!"
+    }
 }
-
-console.log(moodChecker());
+console.log(moodChecker("happy"))
+console.log(moodChecker(10))
+console.log(moodChecker("string"))

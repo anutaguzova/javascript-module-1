@@ -4,7 +4,7 @@
 */
 
 
-let daysOfWeek = [
+const daysOfWeek = [
   "Monday",
   "Tuesday",
   "Wednesday",
@@ -13,15 +13,13 @@ let daysOfWeek = [
   "Saturday",
   "Sunday",
 ];
-
-function showDaysOfWeek(array){
-  for (let i=0; i<array.length; i++){
-    if (array[i].startsWith("T")){
-      console.log(array[i]);
-    }
-  }
-
-}
-
-
-(showDaysOfWeek(daysOfWeek));
+ 
+ function letterArr(days,letter){
+  for (let i = 0; i<days.length; i++){
+  if(days [i] [0] == letter){
+    console.log( days[i]);
+  
+ }
+ }
+ }
+letterArr(daysOfWeek,"T")

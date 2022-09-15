@@ -1,9 +1,4 @@
-const greetingStart = "Hello, my name is ";
-const myName = "Nadia";
-const greeting= greetingStart + myName;
+const greetingStart = "Hello!"
+const myName = "Ali"
+const greeting = `${greetingStart}, My name is ${myName}`
 console.log(greeting);
-
-const greetingHello= "hello there!";
-const myNickName= "Nading";
-
-console.log(`${greetingHello}, call me by my nickname ${myNickName} and my nickname is ${myNickName.length} letters long`);

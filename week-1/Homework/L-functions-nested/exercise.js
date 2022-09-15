@@ -1,15 +1,19 @@
-let mentor1 = "Daniel";
-let mentor2 = "Irina";
-let mentor3 = "Mimi";
-let mentor4 = "Rob";
-let mentor5 = "Yohannes";
+var mentor1 = "Daniel";
+var mentor2 = "Irina";
+var mentor3 = "Mimi";
+var mentor4 = "Rob";
+var mentor5 = "Yohannes";
 
-const greeting= "Hello ";
-
-
-function shoutyGreeting(name){
-    return greeting.toUpperCase()+ name.toUpperCase();
+function charUpperCase(name){
+    let mentorUpperCase = name.toUpperCase();
+    return mentorUpperCase;
 }
-console.log(shoutyGreeting(mentor1));
 
-   
+function greetingMentors(name){
+    console.log(`HELLO ${charUpperCase(name)}`);
+}
+greetingMentors(mentor1)
+greetingMentors(mentor2)
+greetingMentors(mentor3)
+greetingMentors(mentor4)
+greetingMentors(mentor5)

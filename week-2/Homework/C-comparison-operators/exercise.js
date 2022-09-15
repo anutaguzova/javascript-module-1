@@ -5,18 +5,18 @@
   The variables should have values that match the expected results.
 */
 
-let studentCount = 16;
-let mentorCount = 9;
-const moreStudentsThanMentors = studentCount > mentorCount;// finish this statement
+var studentCount = 15;
+var mentorCount = 9;
+var moreStudentsThanMentors = studentCount > mentorCount;// finish this statement
 
 
-const total = studentCount + mentorCount;
-const roomMaxCapacity = 25;
-const enoughSpaceInRoom = roomMaxCapacity >= total; // finish this statement
+var roomMaxCapacity = 25;
+var enoughSpaceInRoom = roomMaxCapacity == studentCount + mentorCount; // finish this statement
+// TODO SHOULD BE TRUE IF THERE ARE LESS PEOPLE THAN ROOM MAX CAPACITY
 
-let personA = "Daniel";
-let personB = "Irina";
-const sameName = personA == personB; // finish this statement
+var personA = "Daniel";
+var personB = "Irina";
+var sameName = personA == personB; // finish this statement
 
 /* 
   DO NOT EDIT BELOW THIS LINE

@@ -7,11 +7,14 @@
 */
 
 let n = 10;
+let sum = 0;
 
 function sumTillNum(num){
-	//your code here
-} 
-// TODO EXERCISE INCOMPLETE. HINT: USE for(var i = 0; i <= num; i+=1) { //your code here }
-// THE FOR LOOP IS A SHORTER VERSION OF THE WHILE LOOP BECAUSE YOU DONT HAVE TO ADD i+=1 IN THE LOOP
+ for(let i=1; i<=num; i++){
+	sum+=i
+	
+ }
+ return sum;
+}
 
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));

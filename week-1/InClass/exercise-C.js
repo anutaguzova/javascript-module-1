@@ -1,6 +1,4 @@
-let greeting = "Hello There!";
-console.log(greeting);
-
-
-console.log(greeting);
-console.log(greeting);
+let greeting = "Hello World"
+console.log(greeting)
+console.log(greeting)
+console.log(greeting)

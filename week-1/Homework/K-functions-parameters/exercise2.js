@@ -1,8 +1,8 @@
 // Declare your function first
-function divide(dividend, divisor){
-    return dividend / divisor;
-}
+function divide(num1, num2) {
+    return num1 / num2;
+  }
 
-var result = divide(3, 4);
+let result = divide(3, 4);
 
 console.log(result);

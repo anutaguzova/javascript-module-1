@@ -6,28 +6,16 @@
   If Daniel is a student, print out "Hi, I'm Daniel, I'm a student."
 */
 
-let name = "Daniel";
-let danielsRole = "mentor";
-let danielsOtherRole = "student";
+var name = "Daniel";
+var danielsRole = "mentor";
+if (danielsRole == "mentor"){
+  console.log(`Hi, I'm ${name}, I'm a ${danielsRole}.`)
+}else {
+  console.log(`Hi, I'm ${name}, I'm a ${danielsRole}.`)
+}
 
+// TODO WOULD BE BETTER TO USE A isMentor BOOLEAN
 
-function roleChecker(name,role){
- /* if (role === "mentor" && name === "Daniel"){
-   return (`hi, I'm ${name}, I'm a ${role}`)
-  } else if (role === "student" && name === "Daniel"){
-   return (`hi, im ${name}, I'm a ${role}`);
-}*/
-if(role == "mentor" || role== "student"){
-  return (`hi, im ${name}, I'm a ${role}`);
-} else {
-    return ('what are you doing here'); // TODO I LOVE IT! I WOULD RATHER USE AN isMentor BOOLEAN VARIABLE BUT YOUR WAY WORKS
-  }
-};
-
-console.log(roleChecker(name,danielsRole));
-console.log(roleChecker(name,danielsOtherRole));
-console.log(roleChecker("Rica","guest"));
-  
 /* 
 EXPECTED RESULT
 ---------------

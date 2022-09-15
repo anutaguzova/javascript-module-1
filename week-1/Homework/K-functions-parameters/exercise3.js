@@ -1,8 +1,9 @@
 // Write your function here
-function createGreeting (name){
-    return `Hello my name is ${name}`;
+
+function createGreeting(name){
+    let newGreeting = `Hello my name is ${name}`;
+    return newGreeting;
+    
 }
-
-let greeting = createGreeting("Daniel");
-
-console.log(greeting);
+let simpleGreeting = createGreeting("Ali");
+console.log(simpleGreeting);

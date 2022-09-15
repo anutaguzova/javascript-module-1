@@ -6,19 +6,21 @@
 */
 
 function isNegative(number) {
-return number <0 ? true : false;
-}
 
-function isBetween5and10(num){
-  return num > 5 && num > 10 ? true: false; 
-}
+    return number<0;
+  }
 
+function isBetween5and10(number1){ 
+  return number1 >= 5  && number1 <= 10;
+    
+  
+}
 function isShortName(name){
-  return name.length <= 6;
-}
+  return name.length<=6;
 
+}
 function startsWithD(name){
-  return name[0] === "D";
+ return name[0]=== "D"
 }
 /* 
   DO NOT EDIT BELOW THIS LINE

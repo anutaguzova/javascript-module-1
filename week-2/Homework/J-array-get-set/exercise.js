@@ -9,8 +9,8 @@ function first(arr) {
 }
 
 function last(arr) {
-  return arr.at(-1); // complete this statement 
-} // TODO THE arr.at(-1) SHOWS AN ERROR ON MY COMPUTER. HINT: TO GET THE NUMBER OF THE LAST INDEX (the index is the place you want to access inside the array) YOU CAN DO arr.length-1  
+  return arr[arr.length -1]; // complete this statement
+}
 
 /* 
   DO NOT EDIT BELOW THIS LINE

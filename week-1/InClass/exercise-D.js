@@ -1,9 +1,10 @@
-let colors= "blue, yellow";
-let colortype=typeof colors ;
+const colors = "Blue , Yellow";
+const type = typeof colors;
+console.log(type);
+console.log(colors); //For Myself
 
-console.log(colortype);
+//Type of a number
+const number = 30;
+const typeOfNumber =typeof number;
+console.log(typeOfNumber);
 
-let number=1;
-let numbertype=typeof number;
-
-console.log(numbertype);
