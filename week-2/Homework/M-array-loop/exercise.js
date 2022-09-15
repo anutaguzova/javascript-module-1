@@ -13,12 +13,9 @@ const daysOfWeek = [
   "Saturday",
   "Sunday",
 ];
-function showdaysOfweek(days, letter){
-  for(let d = 0; d < days.length; d++){
-    if (days [d] [0] == letter){
-      console.log(days[d]);
-    }
+
+for(let i= 0; i < daysOfWeek.length; i++) {
+  if (daysOfWeek[i].startsWith("T")) {
+    console.log(daysOfWeek[i])
   }
 }
-
-showdaysOfweek(daysOfWeek, "T");

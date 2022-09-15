@@ -7,16 +7,16 @@
 */
 
 let n = 10;
-let sum = 0;
-let i = 1;
 
 function sumTillNum(num){
-	while (i<= num){
-		sum += i
-		i++
+	let result = 0;
+	let i = 0
+	while (i <= num) {
+      result += i;
+	  i++;
 	}
-	return sum
-	//your code here
+
+	return result
 }
 
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));

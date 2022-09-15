@@ -1,6 +1,10 @@
-function exerciseH(num1, num2) {
-    return num1 + num2;
+function addF(string1, string2) {
+
+    return string1 + string2;
 }
 
-result = exerciseH (10, 12);
-console.log (result);
+// new function concatenates
+ 
+const result = addF("dd", "ss");
+
+console.log(result)

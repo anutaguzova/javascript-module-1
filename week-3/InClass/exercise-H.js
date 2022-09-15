@@ -1,20 +1,8 @@
-  const namesArray = [
-    "James",
-    "Elamin",
-    "Ismael",
-    "Sanyia",
-    "Chris",
-    "Antigoni",
-  ];
+const names = ["Daniel", "James", "Irina", "Mozafar", "Ashleigh"];
 
+function myName(name) {
+    return names.includes(name) ? "Found me!!" : "Have not found me (("
+}
 
-  function checkName(name, array){
-    if(array.includes(name)){
-      return "Found me"
-    }else{
-      return "Havent found me"
-    }
-  }
-
-
-  console.log(checkName("James", namesArray));
+console.log(myName("Anna"))
+console.log(myName("Mozafar"))

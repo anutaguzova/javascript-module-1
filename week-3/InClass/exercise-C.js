@@ -16,7 +16,9 @@ function magician(yourFunc) {
   return magicOutput;
 }
 
-function yourFunc(array){
-  return array.map(e => e.toUpperCase())
+
+function superArr(arr) {
+  return arr.map(name => name.toUpperCase())
 }
-console.log(magician(yourFunc));
+
+console.log(magician(superArr))

@@ -9,4 +9,5 @@ function numberChecker(num) {
     return `${num} isn't even a number :(`;
   }
 }
-numberChecker(20)
+
+console.log(numberChecker(25));

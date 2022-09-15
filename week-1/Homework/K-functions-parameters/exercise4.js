@@ -1,8 +1,9 @@
 // Declare your function first
-function addition(a, b){
-    const addition = a + b;
-    return addition
+function addNumber(num1, num2) {
+    return num1 + num2;
 }
+
 // Call the function and assign to a variable `sum`
-var sum = addition(13, 124)
+const sum = addNumber(13, 124);
+
 console.log(sum);

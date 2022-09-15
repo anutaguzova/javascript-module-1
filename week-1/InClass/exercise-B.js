@@ -1,10 +1,7 @@
-console.log("Halo, dunia!") // Indonesian 
-console.log("Ciao, mondo!") // Italian
-console.log("Hola, mundo!") // Spanish
-console.log("salam, dunia!") // Urdu
-console.log("hi, world!") //English
-console.log("marhaba, qul") //arabi
-console.log("Ciao, mondo!") // Italian
-console.log("Hola, mundo!") // Spanish
-console.log("salam, dunia!") // Urdu
-console.log("hi, world!") //English
+console.log("Halo, dunia!");
+console.log("Halo, hanna!");
+console.log("Halo, denis!");
+console.log("Halo, alesya!");
+console.log("Halo, darya!");
+console.log("Halo, ludmula");
+console.log("Halo, valery!");

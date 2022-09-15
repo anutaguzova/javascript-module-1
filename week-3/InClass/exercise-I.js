@@ -1,4 +1,4 @@
-const messyArray = [
+const messyArr = [
   100,
   "iSMael",
   55,
@@ -13,7 +13,10 @@ const messyArray = [
   19,
   "ElaMIN",
 ];
-function cleaningUp(array){
-    return array.filter(string => typeof string == "string").map(e => `${e.toUpperCase()}!`)
+
+function cleaningUp(arr) {
+  return arr.filter((el) => typeof el == "string")
+    .map(e => `${e.toUpperCase()}!`)
 }
-console.log(cleaningUp(messyArray));
+
+console.log(cleaningUp(messyArr));

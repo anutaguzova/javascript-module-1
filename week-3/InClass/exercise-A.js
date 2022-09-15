@@ -1,6 +1,5 @@
-const people = ["ali", "hafiz", "dani"];
-people.unshift("hamza");
-console.log(people);
+const arr = ["table", "laptop", "pencil", "phone"];
 
-people.push(hassan);
-console.log(people);
+console.log(arr.length);
+console.log(arr.unshift("paper"));
+console.log(arr.push("cap"));

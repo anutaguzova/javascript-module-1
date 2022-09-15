@@ -1,13 +1,14 @@
-const birthYears = [1964, 2008, 1999, 2005, 1978, 1985, 1919];
+function magician(yourFunc) {
 
-function age(birthYear){
-  const currentYear = new Date().getFullYear();
-  return currentYear - birthYear;
+    const years = [1964, 2008, 1999, 2005, 1978, 1985, 1919]
+
+    const magicOutput = yourFunc(years);
+
+    return magicOutput;
 }
 
-
-function ageArray(array){
-  return array.map(age);
+function superArr(arr) {
+    return arr.map(year => 2022 - year)
 }
 
-console.log(ageArray(birthYears));
+console.log(magician(superArr))

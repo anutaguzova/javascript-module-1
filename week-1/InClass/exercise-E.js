@@ -1,13 +1,8 @@
-//string concatention with + sign
+const greeting = "Hello";
+const myName = "Hanna";
 
-const greetingStart = "Hello, I am"
-const name = " Muazzam Shahzad"
-const greeting = greetingStart + name;
-console.log(greeting);
+const greetingMessage_1 = greeting + " " + myName;
+const greetingMessage_2 = `${greeting} ${myName}`;
 
-//string concatention with interpolation
-
-const greetingStart1 = "Hello, I am"
-const name1 = " Muazzam Shahzad"
-const greeting1 = `${greetingStart1} ${name1}`;
-console.log(greeting1);
+console.log(greetingMessage_1);
+console.log(greetingMessage_2);

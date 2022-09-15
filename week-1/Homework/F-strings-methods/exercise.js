@@ -1,5 +1,7 @@
 // Start by creating a variable `message`
-var name = "Muazzam"
-var length = name.length
-var message = `My name is ${name} and my name is ${length} characters long`
+const myName = "Hanna";
+const lengthName = myName.length;
+let message = `My name is ${myName} and my name is ${lengthName} characters long`;
 console.log(message);
+
+
